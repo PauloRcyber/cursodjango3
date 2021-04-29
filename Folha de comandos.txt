@@ -18,3 +18,33 @@ python manage.py migrate
 
 Criar superusuario
 python manage.py createsuperuser
+
+Criar app
+python manage.py startapp website
+
+Criar git repositorio
+git init
+
+Mostrar historico do repositorio
+git status
+
+Fazer um commit
+git add .
+git commit -m "First commit"
+-- No github: adicionar o remote
+Add remote
+git remote add origin "endereco do repositorio no git hub ou git lab ou servidor da empresa"
+git remote add origin https://github.com/PauloRcyber/cursodjango3.git
+git push -u origin master -> -u só ma primeira vez
+git push origin master -> Comando para enviar o codigo para o github
+
+Exemplo Novo Commit com o github
+Adicionando estas linhas de código:
+
+Listar branchs
+git branch -v       -> Mostra que temos um branch master
+
+Agora o novo Commit com os 3 comandos:
+git add .
+git commit -m "Adicionando Novo Comando"
+git push origin master
