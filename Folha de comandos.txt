@@ -8,7 +8,7 @@ Criar projeto Django: blog
 django-admin startproject blog
 
 Rodar o projeto Django
-python manage.py runserver
+python manage.py runserver  # http://127.0.0.1:8000/
 
 Stop Servidor Local
 ctrl + c
@@ -39,12 +39,10 @@ git push -u origin master -> -u só ma primeira vez
 git push origin master -> Comando para enviar o codigo para o github
 
 Exemplo Novo Commit com o github
-Adicionando estas linhas de código:
-
-Listar branchs
+Comando Listar branchs
 git branch -v       -> Mostra que temos um branch master
 
 Agora o novo Commit com os 3 comandos:
-git add .
+git add .       -> Adiciona tudo. ter certeza de que queremos adicionar os arquivos modificados no commit
 git commit -m "Adicionando Novo Comando"
 git push origin master

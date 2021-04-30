@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%d5*4cyq#6$u!l0%1m^h&h02^7^ld))skn*bijwki^0)s$-u90'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True        # Quando appp for impantada, deve ser alterada para False
+DEBUG = True        # Quando app for implantada, deve ser alterada para False
 
 ALLOWED_HOSTS = []  # Endereços que queremos permitir que a app Django seja acessada
 #ALLOWED_HOSTS = ['www.meusite.com',] 
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website'
+    'website',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blog.urls'  # Configura as URL principais
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates_geral'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
