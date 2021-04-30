@@ -1,4 +1,16 @@
 <h1>BLOG</h1>
-    <h2>Segunda Linha de Teste: index</h2>
+
+{{name}}
+<ol>
+{% for item in lista_tecnologias %}
+
+    {% if item == 'Django'%}
+        <li><b>{{ item }} </b></li>
+    {% else %}
+    <li>{{ item}}</li>
+    {% endif %}
+{% endfor %}
+</ol>
+
 
 
