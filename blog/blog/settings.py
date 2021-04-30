@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blog.urls'  # Configura as URL principais
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates_geral'],
+        'DIRS': ['templates_geral'],    # Pasta: templates_geral no diretório blog
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
